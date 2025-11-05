@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply min-h-screen bg-background text-muted;
+  background-image: radial-gradient(circle at top left, rgba(255, 200, 120, 0.2), transparent 55%),
+    radial-gradient(circle at bottom right, rgba(74, 222, 128, 0.15), transparent 50%);
+}
+
+a {
+  @apply text-primary underline-offset-4 transition hover:underline;
+}
